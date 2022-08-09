@@ -1,0 +1,59 @@
+
+
+.box{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 1em;
+    flex-direction: column;
+}
+
+.box h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: .5em;
+}
+
+.box img{
+    width: 35%;
+}
+
+.box p{
+    font-size: 1.1rem;
+}
+
+
+
+
+/* responsive start here */
+
+
+@media (max-width:500px) {
+    .box img{
+        display: none;
+     }
+}
+
+@media (max-width:300px) {
+
+    .box{
+        height: 100vh;
+        width: 90%;
+        display: block;
+        text-align: center;
+    }
+    .box p{
+        font-size: 1rem;
+    }
+    box h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-bottom: .2em;
+    }
+}
+
+
