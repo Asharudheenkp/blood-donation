@@ -64,7 +64,7 @@ $profile=mysqli_fetch_assoc($result)
         <h1>WELCOME TO BLOOD DONATION: <?php echo  $_SESSION['name']  ?></h1>
 
         <div class="btns">
-            <a href="profile.php?id=<?php echo  $profile['id'] ?>">Go to your profile</a>
+            <a href="profile.php">Go to your profile</a>
         </div>
 
 
